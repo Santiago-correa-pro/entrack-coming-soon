@@ -13,18 +13,11 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700%7CPoppins:400,500" rel="stylesheet">
 
 	<!-- Stylesheets -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+	 crossorigin="anonymous">
+	<link href="css/styles.css" rel="stylesheet">
 
-	<link href="common-css/bootstrap.css" rel="stylesheet">
-
-
-	<link href="common-css/ionicons.css" rel="stylesheet">
-
-
-	<link rel="stylesheet" href="common-css/jquery.classycountdown.css" />
-
-	<link href="01-comming-soon/css/styles.css" rel="stylesheet">
-
-	<link href="01-comming-soon/css/responsive.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">
 
 </head>
 
@@ -55,15 +48,6 @@
 					</div><!-- display-table-cell -->
 				</div><!-- display-table -->
 
-				<ul class="footer-icons">
-					<li>Stay in touch : </li>
-					<li><a href="#"><i class="ion-social-facebook"></i></a></li>
-					<li><a href="#"><i class="ion-social-twitter"></i></a></li>
-					<li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-					<li><a href="#"><i class="ion-social-instagram-outline"></i></a></li>
-					<li><a href="#"><i class="ion-social-pinterest"></i></a></li>
-				</ul>
-
 			</section><!-- left-section -->
 
 			<section class="right-section" style="background-image: url(images/dead.jpeg); background-position: top center;background-repeat: no-repeat">
@@ -72,9 +56,25 @@
 					<div class="display-table-cell">
 
 
-						<div id="rounded-countdown">
-							<div class="countdown" data-remaining-sec="6000000"></div>
+						<div class="countdown">
+							<div class="days">
+								<div id="day"></div>
+								<span>Days</span>
+							</div>
+							<div class="hours">
+								<div id="hour"></div>
+								<span>Hours</span>
+							</div>
+							<div class="mins">
+								<div id="min"></div>
+								<span>Minutes</span>
+							</div>
+							<div class="secs">
+								<div id="sec"></div>
+								<span>Seconds</span>
+							</div>
 						</div>
+
 
 					</div><!-- display-table-cell -->
 				</div><!-- display-table -->
@@ -86,19 +86,8 @@
 
 	<!-- SCIPTS -->
 
-	<script src="common-js/jquery-3.1.1.min.js"></script>
 
-	<script src="common-js/tether.min.js"></script>
-
-	<script src="common-js/bootstrap.js"></script>
-
-	<script src="common-js/jquery.classycountdown.js"></script>
-
-	<script src="common-js/jquery.knob.js"></script>
-
-	<script src="common-js/jquery.throttle.js"></script>
-
-	<script src="common-js/scripts.js"></script>
+	<script src="js/index.js"></script>
 
 </body>
 
