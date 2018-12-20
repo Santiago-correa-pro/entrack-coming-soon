@@ -1,4 +1,4 @@
-let countdown = new Date('Oct 27, 2018 15:00:00').getTime();
+let countdown = new Date('Oct 27, 2020 15:00:00').getTime();
 
 // Update countdown every one second
 let timing = setInterval(() => {
